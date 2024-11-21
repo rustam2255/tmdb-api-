@@ -1,0 +1,32 @@
+@import './variables.scss';
+.btn{
+  height: 46px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+  &__primary {
+		background-color: transparent;
+		color: #fff;
+		border: 1px solid #fff;
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.1);
+			border-color: rgba(255, 255, 255, 0.1);
+		}
+	}
+
+	&__secondary {
+		background-color: #fff;
+		border: 1px solid #fff;
+
+		&:hover {
+			color: #fff;
+			background-color: transparent;
+			border-color: rgba(255, 255, 255, 0.1);
+		}
+	}
+}
